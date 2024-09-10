@@ -1,9 +1,12 @@
 // Main.java
+import java.util.logging.Logger;
 
 class Main
 {
-    public static void main(String args[])
+
+    Logger logger = Logger.getLogger(getClass().getName())
+    public void main(String[] args)
     {
-        System.out.println("Hello Java");
+        logger.info("Hello Java");
     }
 }
