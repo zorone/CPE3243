@@ -3,7 +3,7 @@ import java.util.logging.Logger;
 
 class Main
 {
-    public void main(String[] args)
+    public static void main(String[] args)
     {
         StringValue string = new StringValue();
         string.logString();
