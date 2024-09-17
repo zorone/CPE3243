@@ -10,7 +10,7 @@ class CPE3243
 
     public static void main(String[] args)
     {
-        System.ou.println("Hello World!");
+        System.out.println("Hello World!");
     }
 }
 
