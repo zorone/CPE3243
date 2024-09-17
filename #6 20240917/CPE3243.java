@@ -1,7 +1,7 @@
 class CPE3243
 {
-    public int x;
-    public int y;
+    private int x;
+    private int y;
 
     int plus(int m, int n)
     {
