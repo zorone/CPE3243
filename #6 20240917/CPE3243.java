@@ -1,17 +1,20 @@
 class CPE3243
 {
-    private int x;
-    private int y;
+    private int x_value;
+    private int y_value;
 
-    int plus(int m, int n)
+    int setX_value(int m)
     {
-        return m+n;
+        x_value = m;
     }
 
+    int getX_value()
+    {
+        return x_value;
+    }
+    
     public static void main(String[] args)
     {
         System.out.println("Hello World!");
     }
 }
-
-
