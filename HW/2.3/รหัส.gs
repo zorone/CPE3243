@@ -15,7 +15,7 @@ function getCode(code)
     return r[1];
   });
   var stdList = data.map(function(r) {
-    return r[3];
+    return [ r[2] + " " + r[3] + " " + r[4] ];
   });
   var position = stdCodesList.indexOf(code);
   if(position > -1)
