@@ -3,6 +3,7 @@ function doGet(e)
   return HtmlService.createHtmlOutputFromFile("index");
 }
 
+// https://developers.google.com/apps-script/reference/spreadsheet/sheet#getRange(Integer,Integer,Integer,Integer)
 function getCode(code)
 {
   var url = "https://docs.google.com/spreadsheets/d/18wGz0asYtWS6QkEtbv1I-0WM-uZW89S_Tl_aoPRBjic/edit?gid=0";
