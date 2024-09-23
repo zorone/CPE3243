@@ -19,7 +19,7 @@
           google.script.run.withSuccessHandler(updateData).getCode(code);
         }
       }
-      function updateData()
+      function updateData(data)
       {
         document.getElementById("search").value = data;
         M.updateTexfields();
